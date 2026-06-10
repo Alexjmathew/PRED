@@ -17,3 +17,16 @@
 ### Predict failures before they happen — using sensor data, ML, and the NASA CMAPSS dataset.
  
 <br/>
+
+
+##Goal: Predict Remaining Useful Life (RUL) of turbofan engines using NASA CMAPSS dataset.
+
+Dataset: FD001 subset — 21 sensor readings per engine cycle until failure.
+
+Pipeline:
+
+Data Ingestion & Validation
+Feature Engineering (Dead Sensor Removal + RUL Clipping)
+EDA (Correlation + PCA)
+Modeling Benchmark (LR → RF → XGBoost → LightGBM)
+Real-time Simulation
