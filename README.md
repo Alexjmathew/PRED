@@ -19,9 +19,14 @@ The pipeline processes multivariate sensor data (subset FD001), extracts critica
 ### 1. Feature Engineering
 * **Dead Sensor Removal:** Identified and dropped sensors with zero variance (`nunique() <= 1`) to eliminate noise and reduce dimensionality.
 * **RUL Clipping:** Capped the maximum RUL at **125 cycles**. This is a crucial domain-specific step that prevents the model from over-penalizing early-stage predictions, forcing it to focus strictly on the physical degradation phase.
+  
+
 
 ### 2. Exploratory Data Analysis (EDA)
+* <img width="1127" height="453" alt="image" src="https://github.com/user-attachments/assets/a4fbdb62-2b5e-435e-9950-5222b26331ae" />
 * **Correlation Analysis:** Identified the top 5 most informative sensors heavily correlated with engine failure.
+* <img width="946" height="697" alt="image" src="https://github.com/user-attachments/assets/ec08ac1c-074b-4395-9e15-ca2a69167bf9" />
+
 * **State Separation (KDE):** Visualized the divergence between healthy (early cycles) and failing (late cycles) sensor distributions.
 * **PCA Trajectory:** Mapped high-dimensional sensor data into a 2D Principal Component space to visually track the degradation trajectory over time.
 
