@@ -39,4 +39,11 @@ Data was normalized using a `MinMaxScaler` (fitted strictly on the training set 
   <img width="1245" height="482" alt="image" src="https://github.com/user-attachments/assets/aed9e585-fc3b-4b0e-826e-693ce3483b79" />
 
 
+### Digital Twin Simulation
+
+The simulation reconstructs RUL trajectories for any test engine in real-time:
+<img width="1203" height="526" alt="image" src="https://github.com/user-attachments/assets/1bd4803d-2cb9-410a-8257-dbf96e91c372" />
+
+
+
 
