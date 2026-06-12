@@ -6,6 +6,7 @@
 
 ## 📌 Overview
 This project develops a machine learning pipeline to predict the **Remaining Useful Life (RUL)** of turbofan engines using the NASA CMAPSS (Commercial Modular Aero-Propulsion System Simulation) dataset. By accurately forecasting engine degradation, this solution enables proactive maintenance, minimizing unexpected failures and reducing operational downtime.
+Youtube : https://youtu.be/OZP12QLTFOI
 
 The pipeline processes multivariate sensor data (subset FD001), extracts critical degradation signals, benchmarks multiple regression models, and culminates in a simulated "Digital Twin" for real-time engine monitoring.
 
